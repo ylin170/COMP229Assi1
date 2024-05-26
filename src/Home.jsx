@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="home">
-        <img src='/image/welcome.jpg' alt="welcome" style={{ width: '100%', height: 'auto' }} />
+        <img src='/image/welcome.jpg' alt="welcome" style={{ width: '70%', height: 'auto' }} />
       <h2>Welcome to My Portfolio</h2>
       <p>
       Hello! I'm Yangying Lin, a passionate Software Engineering Technician student dedicated to developing innovative and efficient solutions. 

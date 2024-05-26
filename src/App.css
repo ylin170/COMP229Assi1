@@ -53,22 +53,22 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 20px; /* Add margin to separate from other content */
+  margin-bottom: 20px; 
 }
 
 nav {
-  margin-top: 10px; /* Adjust as needed */
+  margin-top: 10px; 
 }
 
 /* Additional styles for the navigation links */
 nav a {
-  margin: 0 10px; /* Adjust spacing between links */
+  margin: 0 10px; 
   text-decoration: none;
   color: black;
 }
 
 nav a:hover {
-  color: blue; /* Change color on hover */
+  color: green; 
 }
 
 /*service page */
