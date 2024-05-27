@@ -1,3 +1,7 @@
+// Student Name: Yangying Lin
+// Student ID: 300992124
+// Date: 2024-05-26
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import webLogo from '../WebLogo.png';

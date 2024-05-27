@@ -1,3 +1,7 @@
+// Student Name: Yangying Lin
+// Student ID: 300992124
+// Date: 2024-05-26
+
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './src/Home'

@@ -5,7 +5,7 @@
 */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 2.5;
+  line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
@@ -70,4 +70,34 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+/* Content Section */
+#root {
+  flex: 1; /* This makes sure the content area expands to fill the remaining space */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  flex-shrink: 0; /* This ensures the footer stays at the bottom */
 }
